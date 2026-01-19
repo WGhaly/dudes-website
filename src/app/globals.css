@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3e9d1e;
+  --color-vida-loca: #3e9d1e;
+  --color-cod-gray: #161616;
+  --color-desert-storm: #f2f3f1;
+  --color-boulder: #7c7c7c;
+  --color-chelsea-cucumber: #7fb46a;
+  --color-sprout: #c0deb3;
+  --color-tundora: #424242;
+  --color-nobel: #b4b4b4;
+  --color-background: #f2f3f1;
+  --color-foreground: #161616;
+  --color-muted: #7c7c7c;
+  --color-muted-foreground: #7c7c7c;
+  --color-card: #ffffff;
+  --color-card-foreground: #161616;
+  --color-border: #c0deb3;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
